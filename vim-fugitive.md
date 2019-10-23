@@ -1,5 +1,6 @@
 # Gstatus
 
+- `:G`  open status window
 - `C-n` to iterate over files
 - `C-p` to iterate backwards over files
 
@@ -7,7 +8,8 @@
     Can use this in Visual mode to select multiple files
 - `Return` key opens the file in a new window
 
-- `S-c` open git commit window
+- `cc` create new git commit window
+- `ca` commit --amend
 
 # Gdiff
 
