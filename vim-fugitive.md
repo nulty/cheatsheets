@@ -43,6 +43,23 @@ Index version on the left, Working Copy on the right.
   - Visual mode select lines and run diffget to add selection to index
   - `:diffupdate` to update the diff
 
+# Gitobject
+- `filetype` : git
+
+- `o` Open object (sha) in new horizontal split
+- `)`  jump to next hunk/file
+- `(`  jump to prev hunk/file
+- `[/` next file
+- `]/` prev file
+
+**On a SHA**
+- `<CR>`  Open commit in current buffer
+- `<C-o>` Go back to previous buffer
+
+**On addition/deletion**
+- `<CR>` Open file at place and point of addition/deletion
+- `<C-o>` Go back to previous buffer
+
 # Gblame
 
 - `filetype` : fugitiveblame
