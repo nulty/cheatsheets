@@ -22,6 +22,8 @@ There are 4 main buffer types relevant to fugitive:
 - `cc` create new git commit window
 - `ca` commit --amend
 
+- `:Gpush` Push commits to remote
+
 # Gdiff
 
 Index version on the left, Working Copy on the right.
