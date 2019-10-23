@@ -1,3 +1,14 @@
+# Fugitive
+
+Like vim in general, all concepts in fugitive are relative to the mode / buffer
+
+There are 4 main buffer types relevant to fugitive:
+
+1. fugitive (Gstatus)
+2. fugitiveblame (Gblame)
+3. git (git object, like a commit)
+4. diff
+
 # Gstatus
 
 - `:G`  open status window
