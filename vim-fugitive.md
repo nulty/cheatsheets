@@ -30,4 +30,25 @@ Index version on the left, Working Copy on the right.
   - Visual mode select lines and run diffget to add selection to index
   - `:diffupdate` to update the diff
 
+# Gblame
+
+- `filetype` : fugitiveblame
+
+- `:Gblame` Open current file in blame
+- `g?` open Gblame help mappings
+- `gq` Quit blame back to working tree
+- `p`  Open commit in preview window (bottom)
+- `o`  Go directly to the change in the commit
+
+    The `14241b1927` in the Gblame window is the object reference.
+    Hitting `p` on this will open the horizontal split at the bottom of the vim instance
+
+
+```
+...
+
+14241b1927  (Some Developer 2018-11-12 11:14:55 +0000)     end
+14241b1927  (Some Developer 2018-11-12 11:14:55 +0000)   end
+14241b1927  (Some Developer 2018-11-12 11:14:55 +0000) end
+```
 
